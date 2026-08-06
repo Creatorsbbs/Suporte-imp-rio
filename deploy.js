@@ -12,11 +12,11 @@ module.exports = async (client) => {
       .setDescription("Inicia forca multiplayer"),
 
     new SlashCommandBuilder()
-      .setName("setstaff")
+      .setName("baganga")
       .setDescription("Define staff"),
 
     new SlashCommandBuilder()
-      .setName("skin")
+      .setName("bugantigo")
       .setDescription("Mostra a skin de um jogador Roblox")
       .addStringOption(option =>
         option
