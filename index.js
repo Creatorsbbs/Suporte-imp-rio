@@ -157,7 +157,10 @@ client.on("interactionCreate", async (interaction) => {
 
     if (!interaction.isChatInputCommand()) return;
 
-    await skinCommand(interaction);
+if (interaction.commandName === "skin") {
+    await skinCommand.execute(interaction);
+    return;
+}
     
     if (interaction.commandName === "painel") {
 
