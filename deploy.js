@@ -16,7 +16,7 @@ module.exports = async (client) => {
       .setDescription("Define staff"),
 
     new SlashCommandBuilder()
-      .setName("bugantigo")
+      .setName("skin")
       .setDescription("Mostra a skin de um jogador Roblox")
       .addStringOption(option =>
         option
